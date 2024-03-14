@@ -20,6 +20,13 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 private Long u_id;
 private String name;
+private String gender;
+private String bio;
+private String address;
+private String skill;
+private String work_exp;
+private Long mob;
+
 public Long getU_id() {
 	return u_id;
 }
@@ -68,11 +75,6 @@ public Long getMob() {
 public void setMob(Long mob) {
 	this.mob = mob;
 }
-private String gender;
-private String bio;
-private String address;
-private String skill;
-private String work_exp;
-private Long mob;
+
 
 }
